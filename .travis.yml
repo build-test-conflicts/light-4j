@@ -18,7 +18,7 @@ deploy:
   api_key:
     secure: $GITHUB_TOKEN
   file: result.tar.gz
-  name: fetchjar-7a9c7dd671e0002c1300f83e2c513b33db6f3e1a
+  name: fetchjar-0b1d878
   file_glob: true
   overwrite: true
   skip_cleanup: true
