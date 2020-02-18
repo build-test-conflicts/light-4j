@@ -14,7 +14,7 @@ public class Counter implements Metric, Counting {
     inc(1);
   }
   /** 
- * Increment the counter by  {@code n}.
+ * Increment the counter by   {@code n}.
  * @param n the amount by which the counter will be increased
  */
   public void inc(  long n){
@@ -27,7 +27,7 @@ public class Counter implements Metric, Counting {
     dec(1);
   }
   /** 
- * Decrement the counter by  {@code n}.
+ * Decrement the counter by   {@code n}.
  * @param n the amount by which the counter will be decreased
  */
   public void dec(  long n){

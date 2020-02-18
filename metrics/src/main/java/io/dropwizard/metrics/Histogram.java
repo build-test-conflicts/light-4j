@@ -11,7 +11,7 @@ public class Histogram implements Metric, Sampling, Counting {
   private Reservoir reservoir;
   private LongAdder count;
   /** 
- * Creates a new  {@link Histogram} with the given reservoir.
+ * Creates a new   {@link Histogram} with the given reservoir.
  * @param reservoir the reservoir to create a histogram from
  */
   public Histogram(  Reservoir reservoir){

@@ -15,13 +15,13 @@ public class Meter implements Metered {
   private AtomicLong lastTick;
   private Clock clock;
   /** 
- * Creates a new  {@link Meter}.
+ * Creates a new   {@link Meter}.
  */
   public Meter(){
     this(Clock.defaultClock());
   }
   /** 
- * Creates a new  {@link Meter}.
+ * Creates a new   {@link Meter}.
  * @param clock      the clock to use for the meter ticks
  */
   public Meter(  Clock clock){
