@@ -11,7 +11,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Locale;
 import java.util.Objects;
 /** 
- * This class act as a mutable URL, which could be a replacement or "wrapper" to the  {@link URL} class. It can also be used as a safer wayto build a  {@link URL} or a {@link URI} instance as it will properly escapeappropriate characters before creating those.
+ * This class act as a mutable URL, which could be a replacement or "wrapper" to the   {@link URL} class. It can also be used as a safer wayto build a  {@link URL} or a {@link URI} instance as it will properly escapeappropriate characters before creating those.
  * @author Pascal Essiembre
  */
 public class HttpURL implements Serializable {
@@ -228,7 +228,7 @@ public class HttpURL implements Serializable {
     return segment;
   }
   /** 
- * Converts this HttpURL to a regular  {@link URL}, making sure appropriate characters are escaped properly.
+ * Converts this HttpURL to a regular   {@link URL}, making sure appropriate characters are escaped properly.
  * @return a URL
  * @throws RuntimeException when URL is malformed
  */
@@ -251,7 +251,7 @@ public class HttpURL implements Serializable {
     return getRoot(toString());
   }
   /** 
- * Converts this HttpURL to a  {@link URI}, making sure appropriate characters are escaped properly.
+ * Converts this HttpURL to a   {@link URI}, making sure appropriate characters are escaped properly.
  * @return a URI
  * @since 1.7.0
  * @throws RuntimeException when URL is malformed
@@ -266,7 +266,7 @@ public class HttpURL implements Serializable {
     }
   }
   /** 
- * <p> Converts the supplied URL to a  {@link URL}, making sure appropriate characters are encoded properly using UTF-8. This method is a short form of:<br> <code>new HttpURL("http://example.com").toURL();</code> </p>
+ * <p> Converts the supplied URL to a   {@link URL}, making sure appropriate characters are encoded properly using UTF-8. This method is a short form of:<br> <code>new HttpURL("http://example.com").toURL();</code> </p>
  * @param url a URL string
  * @return a URL object
  * @since 1.7.0
@@ -276,7 +276,7 @@ public class HttpURL implements Serializable {
     return new HttpURL(url).toURL();
   }
   /** 
- * <p>Converts the supplied URL to a  {@link URI}, making sure appropriate characters are encoded properly using UTF-8. This method is a short form of:<br> <code>new HttpURL("http://example.com").toURI();</code> </p>
+ * <p>Converts the supplied URL to a   {@link URI}, making sure appropriate characters are encoded properly using UTF-8. This method is a short form of:<br> <code>new HttpURL("http://example.com").toURI();</code> </p>
  * @param url a URL string
  * @return a URI object
  * @since 1.7.0
